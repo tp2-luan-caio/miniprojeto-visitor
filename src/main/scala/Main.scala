@@ -12,10 +12,10 @@ object Main extends App {
   val sub = new Sub(lit100, lit500)
   val mult = new Mult(lit100, lit500)
 
-  eval.visit(add)
+  add.accept(eval)
   println(add.print() + " = " + eval.result())
-  eval.visit(sub)
+  sub.accept(eval)
   println(sub.print() + " = " + eval.result())
-  eval.visit(mult)
+  mult.accept(eval)
   println(mult.print() + " = " + eval.result())
 }
