@@ -1323,33 +1323,27 @@
 [debug] == resolving dependencies ch.epfl.scala#hello-world$sources;1.0->org.scala-lang#scala-compiler;2.12.4 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried C:\Users\Iago Caitano\.ivy2\local\org.scala-lang\scala-library\2.12.4\srcs\scala-library-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar
-[debug] 		tried C:\Users\Iago Caitano\.ivy2\local\org.typelevel\machinist_2.12\0.6.2\srcs\machinist_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2-sources.jar
-[debug] 		tried C:\Users\Iago Caitano\.ivy2\local\jline\jline\2.14.5\srcs\jline-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
-[debug] 		tried C:\Users\Iago Caitano\.ivy2\local\org.scala-lang.modules\scala-xml_2.12\1.0.5\srcs\scala-xml_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar
-[debug] 		tried C:\Users\Iago Caitano\.ivy2\local\org.scala-lang.modules\scala-xml_2.12\1.0.6\srcs\scala-xml_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[debug] 		tried C:\Users\Iago Caitano\.ivy2\local\org.scala-lang\scala-compiler\2.12.4\srcs\scala-compiler-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar
-[debug] 		tried C:\Users\Iago Caitano\.ivy2\local\org.typelevel\cats-core_2.12\1.0.1\srcs\cats-core_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/cats-core_2.12-1.0.1-sources.jar
-[debug] 		tried C:\Users\Iago Caitano\.ivy2\local\org.scalactic\scalactic_2.12\3.0.4\srcs\scalactic_2.12-sources.jar
-[debug] 		tried C:\Users\Iago Caitano\.ivy2\local\org.scalatest\scalatest_2.12\3.0.4\srcs\scalatest_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-macros_2.12;1.0.1!cats-macros_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.4!scalactic_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-core_2.12;1.0.1!cats-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#machinist_2.12;0.6.2!machinist_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(src)
 [debug] no default ivy user dir defined: set to C:\Users\Iago Caitano\.ivy2
+[debug] 	[NOT REQUIRED] org.typelevel#cats-kernel_2.12;1.0.1!cats-kernel_2.12.jar(src)
 [debug] including url: jar:file:/C:/Users/Iago%20Caitano/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default cache defined: set to C:\Users\Iago Caitano\.ivy2\cache
 [debug] including url: jar:file:/C:/Users/Iago%20Caitano/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/C:/Users/Iago%20Caitano/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/C:/Users/Iago%20Caitano/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 		tried C:\Users\Iago Caitano\.ivy2\local\org.typelevel\cats-kernel_2.12\1.0.1\srcs\cats-kernel_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.1/cats-kernel_2.12-1.0.1-sources.jar
 [debug] including url: jar:file:/C:/Users/Iago%20Caitano/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (15ms)
+[debug] settings loaded (17ms)
 [debug] 	default cache: C:\Users\Iago Caitano\.ivy2\cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -1358,104 +1352,16 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] 		tried C:\Users\Iago Caitano\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.12\1.0.4\srcs\scala-parser-combinators_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4-sources.jar
-[debug] 		tried C:\Users\Iago Caitano\.ivy2\local\org.typelevel\cats-macros_2.12\1.0.1\srcs\cats-macros_2.12-sources.jar
-[debug] 		tried C:\Users\Iago Caitano\.ivy2\local\org.scala-lang\scala-reflect\2.12.4\srcs\scala-reflect-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/cats-macros_2.12-1.0.1-sources.jar
-[debug] no default ivy user dir defined: set to C:\Users\Iago Caitano\.ivy2
-[debug] including url: jar:file:/C:/Users/Iago%20Caitano/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to C:\Users\Iago Caitano\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/Iago%20Caitano/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/Iago%20Caitano/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/Iago%20Caitano/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/Iago%20Caitano/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (21ms)
-[debug] 	default cache: C:\Users\Iago Caitano\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.1/cats-kernel_2.12-1.0.1-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/cats-macros_2.12-1.0.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.1/cats-kernel_2.12-1.0.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/cats-macros_2.12-1.0.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/cats-core_2.12-1.0.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/cats-core_2.12-1.0.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#machinist_2.12;0.6.2!machinist_2.12.jar(src) (930ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/cats-macros_2.12-1.0.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(src) (1255ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.4!scala-library.jar(src) (1413ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.1/cats-kernel_2.12-1.0.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/cats-macros_2.12-1.0.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-macros_2.12;1.0.1!cats-macros_2.12.jar(src) (1495ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/cats-core_2.12-1.0.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.1/cats-kernel_2.12-1.0.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
-[info] 	[SUCCESSFUL ] jline#jline;2.14.5!jline.jar(src) (2217ms)
-[info] 	[SUCCESSFUL ] org.typelevel#cats-kernel_2.12;1.0.1!cats-kernel_2.12.jar(src) (2198ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/cats-core_2.12-1.0.1-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src) (2284ms)
-[info] 	[SUCCESSFUL ] org.typelevel#cats-core_2.12;1.0.1!cats-core_2.12.jar(src) (2340ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4-sources.jar.sha1
-[info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.4!scalactic_2.12.jar(src) (2561ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src) (2736ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.jar(src) (2839ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src) (2912ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src) (3650ms)
-[debug] :: resolution report :: resolve 219ms :: artifacts dl 3727ms
-[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 compile produced in C:\Users\Iago Caitano\Documents\GitHub\epl-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-compile.xml
-[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 runtime produced in C:\Users\Iago Caitano\Documents\GitHub\epl-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-runtime.xml
-[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 test produced in C:\Users\Iago Caitano\Documents\GitHub\epl-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-test.xml
-[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 provided produced in C:\Users\Iago Caitano\Documents\GitHub\epl-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-provided.xml
-[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 optional produced in C:\Users\Iago Caitano\Documents\GitHub\epl-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-optional.xml
-[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 compile-internal produced in C:\Users\Iago Caitano\Documents\GitHub\epl-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-compile-internal.xml
-[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 runtime-internal produced in C:\Users\Iago Caitano\Documents\GitHub\epl-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-runtime-internal.xml
-[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 test-internal produced in C:\Users\Iago Caitano\Documents\GitHub\epl-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-test-internal.xml
-[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 plugin produced in C:\Users\Iago Caitano\Documents\GitHub\epl-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-plugin.xml
-[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 pom produced in C:\Users\Iago Caitano\Documents\GitHub\epl-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-pom.xml
-[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 scala-tool produced in C:\Users\Iago Caitano\Documents\GitHub\epl-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-scala-tool.xml
-[debug] 	resolve done (219ms resolve - 3727ms download)
+[debug] :: resolution report :: resolve 395ms :: artifacts dl 42ms
+[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 compile produced in C:\Users\Iago Caitano\Documents\GitHub\miniprojeto-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-compile.xml
+[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 runtime produced in C:\Users\Iago Caitano\Documents\GitHub\miniprojeto-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-runtime.xml
+[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 test produced in C:\Users\Iago Caitano\Documents\GitHub\miniprojeto-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-test.xml
+[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 provided produced in C:\Users\Iago Caitano\Documents\GitHub\miniprojeto-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-provided.xml
+[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 optional produced in C:\Users\Iago Caitano\Documents\GitHub\miniprojeto-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-optional.xml
+[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 compile-internal produced in C:\Users\Iago Caitano\Documents\GitHub\miniprojeto-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-compile-internal.xml
+[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 runtime-internal produced in C:\Users\Iago Caitano\Documents\GitHub\miniprojeto-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-runtime-internal.xml
+[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 test-internal produced in C:\Users\Iago Caitano\Documents\GitHub\miniprojeto-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-test-internal.xml
+[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 plugin produced in C:\Users\Iago Caitano\Documents\GitHub\miniprojeto-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-plugin.xml
+[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 pom produced in C:\Users\Iago Caitano\Documents\GitHub\miniprojeto-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-pom.xml
+[debug] 	report for ch.epfl.scala#hello-world$sources;1.0 scala-tool produced in C:\Users\Iago Caitano\Documents\GitHub\miniprojeto-visitor\target\scala-2.12\resolution-cache\reports\ch.epfl.scala-hello-world$sources-scala-tool.xml
+[debug] 	resolve done (395ms resolve - 42ms download)
